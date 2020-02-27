@@ -21,4 +21,3 @@ update:
 publish:
 	npm version $(shell date '+%y.%-V.%u%H') --force --allow-same-version
 	git push --tags
-	npm publish
