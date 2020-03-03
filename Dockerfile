@@ -18,5 +18,5 @@ WORKDIR /app
 COPY . .
 COPY --from=devv-builder ./app/lib ./lib
 COPY --from=devv-dependencies ./app/node_modules ./node_modules
-EXPOSE 8010
+EXPOSE 8080
 CMD ["npm", "start"]

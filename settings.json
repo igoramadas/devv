@@ -2,7 +2,7 @@
 
 {
     "app": {
-        "port": 8010,
+        "port": 8080,
         "title": "Devv",
         "url": "https://devv.com/",
         "publicPath": "./web/",
