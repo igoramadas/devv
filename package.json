@@ -1,6 +1,6 @@
 {
     "name": "devv-website",
-    "version": "20.10.212",
+    "version": "20.18.318",
     "description": "Welcome to devv.com!",
     "author": "Igor Ramadas <igor@devv.com>",
     "homepage": "https://devv.com",
@@ -17,12 +17,12 @@
         "start": "node lib/index.js"
     },
     "dependencies": {
-        "anyhow": "^1.5.1",
-        "expresser": "^4.2.0"
+        "anyhow": "^1.5.2",
+        "expresser": "^4.2.1"
     },
     "devDependencies": {
-        "@types/express": "^4.17.2",
-        "@types/node": "^13.7.7",
+        "@types/express": "^4.17.6",
+        "@types/node": "^13.13.4",
         "typescript": "^3.8.3"
     },
     "prettier": {

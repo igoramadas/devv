@@ -2,11 +2,11 @@
 FROM node:alpine AS devv-builder
 WORKDIR /app
 COPY . .
-RUN npm install
-RUN node_modules/.bin/tsc
+RUN npm install && node_modules/.bin/tsc
 
 # DEPENDENCIES
 FROM node:alpine AS devv-dependencies
+ENV NODE_ENV=production
 WORKDIR /app
 COPY . .
 RUN apk update && apk upgrade && npm install --production

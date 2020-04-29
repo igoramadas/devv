@@ -18,6 +18,8 @@ update:
 	npm install
 	$(TSC)
 
-publish:
-	npm version $(shell date '+%y.%-V.%u%H') --force --allow-same-version
+deploy-git:
+	npm version $(shell date '+%y.%-V%u.%-d%H%M') --force --allow-same-version
+	git push
 	git push --tags
+	npm publish
