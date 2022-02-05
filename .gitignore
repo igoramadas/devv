@@ -1,9 +1,3 @@
 .DS_Store
 .history/
 .vscode/
-lib/
-node_modules/
-npm-debug.log
-devv.local.crt
-devv.local.key
-settings.private.json
